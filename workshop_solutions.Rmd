@@ -17,5 +17,15 @@ output:
 # Bonus section
 
 ## Loading the data
+```{r}
+library(tidyverse)
+
+library(skimr)
+
+data <- read.csv("raw_data/data.csv")
+skim(data)
+
+```
+
 
 ## An interesting plot
