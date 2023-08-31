@@ -29,3 +29,9 @@ skim(data)
 
 
 ## An interesting plot
+```{r}
+ggplot(data, aes(x = weight, y = VO2_ml_per_h, color = Sex)) +
+  geom_point()
+  
+```
+
